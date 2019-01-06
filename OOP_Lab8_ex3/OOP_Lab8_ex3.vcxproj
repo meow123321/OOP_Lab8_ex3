@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Caine.h" />
+    <ClInclude Include="CaineCuPete.h" />
+    <ClInclude Include="CaineFaraPete.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Caine.cpp" />
+    <ClCompile Include="CaineCuPete.cpp" />
+    <ClCompile Include="CaineFaraPete.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
