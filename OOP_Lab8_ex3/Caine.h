@@ -6,7 +6,7 @@ using namespace std;
 
 class Caine {
 public:
-	string name;
+	string nume;
 	string culoare;
 	int inaltime;
 	int greutate;

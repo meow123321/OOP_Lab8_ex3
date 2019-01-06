@@ -6,12 +6,8 @@ CaineCuPete::CaineCuPete(int pete, string nume, string culoare, int inaltime, in
 }
 
 void CaineCuPete::Afisare() {
-	
-	cout << "Numele cainelui este: " << this->name << endl;
-	cout << "Inaltimea cainelui: " << this->inaltime << " cm" << endl;
-	cout << "Greutatea cainelui: " << this->greutate << " Kg" << endl;
-	cout << "Varsta cainelui: " << this->varsta << " ani" << endl;
-	cout << "Culoarea cainelui: " << this->culoare << endl;
+	cout << "\nAcest caine are pete!" << endl;
+	Caine::Afisare();
 	cout << "Numarul de pete: " << this->NrPete << endl;
 
 }

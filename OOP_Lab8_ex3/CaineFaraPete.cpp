@@ -6,12 +6,8 @@ CaineFaraPete::CaineFaraPete(string rasa, string nume, string culoare, int inalt
 }
 
 void CaineFaraPete::Afisare() {
-
-	cout << "Numele cainelui este: " << this->name << endl;
-	cout << "Inaltimea cainelui: " << this->inaltime << " cm" << endl;
-	cout << "Greutatea cainelui: " << this->greutate << " Kg" << endl;
-	cout << "Varsta cainelui: " << this->varsta << " ani" << endl;
-	cout << "Culoarea cainelui: " << this->culoare << endl;
+	cout << "\nAcest caine nu are pete!" << endl;
+	Caine::Afisare();
 	cout << "Rasa cainelui este:" << this->rasa << endl;
 
 
